@@ -1,5 +1,31 @@
-(function($) {
+﻿(function($) {
+    //回し続けてみる
+    var angle = 0;
+    setInterval(function(){
+                angle+=1;
+             $("#s00 img").rotate(angle);
+    },10);//
 
+	var i = 0;
+	var int = 0;
+	$(window).bind("load", function() {
+	    $("#fade").fadeIn(1000); // フェードインの実行
+	});
+	
+	$(window).load(function() {
+		$('.flexslider').flexslider();
+	});
+
+	$(document).ready(function(){
+	  $.doTimeout(3500, function(){
+	    $('.repeat.go').removeClass('go');
+	    return true;
+	  });
+	  $.doTimeout(3520, function(){
+	    $('.repeat').addClass('go');
+	    return true;
+	  });
+	});
   $.fn.menumaker = function(options) {
       
       var cssmenu = $(this), settings = $.extend({

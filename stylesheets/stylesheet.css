@@ -94,7 +94,7 @@ header h2 {
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -102,20 +102,18 @@ header h2 {
   height : 700px;  
   width : 1200px;  
   margin: 50px auto;
-  border-top: solid 1px #fff;
   color: #000000;
-  background-color: #ffffff;   
+  background-color: rgba(255,255,255,0.6);   
   background-repeat: no-repeat; 
-  opacity: 0.6;  
 }
 
-#main-content {
+#main-content {   
   width: 1000px;
   float: left;
 }
 
 #main-content img {
-  max-width: 100%;
+  max-width: 100%; 
 }
 
 aside#sidebar {
