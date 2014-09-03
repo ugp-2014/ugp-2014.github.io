@@ -342,13 +342,14 @@ dl dd {
 }
 
 footer {     
-  line-height: 1.5; 
+  line-height: 1.5;
   padding-top: 0px;
   padding-bottom: 0px;
   font-size: 25px;    
   font-family: "ＭＳ ゴシック",sans-serif;
   font-weight: 500;
-  color: #000000; 
+  color: #000000;  
+  margin: 70px auto;
   background-color: rgba(100,100,100,0.6); 
 }
 
@@ -371,6 +372,42 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+
+/* ページトップへ戻る */
+.pageTop {
+	position:relative;
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+}
+.pageTop a {
+	position: fixed;
+	bottom: 0px;
+	left:auto;
+	display: block;
+	width: 100px;
+	height:100px;
+	margin-left:920px; 
+    background: url(../images/Ugepi.png) 0 0 no-repeat;
+}
+.pageTop a:before,
+.pageTop a:after {
+	position:absolute;
+	left:50%;
+	content:"";
+	width:0px;
+	height:0px;
+	margin-left:-10px;
+	border:10px solid transparent;
+}
+.pageTop a:before {  
+	top:50%;
+}
+.pageTop a:after {  
+	top:50%;
+	z-index:-1;
+}
 
 /* #Media Queries
 ================================================== */
@@ -505,4 +542,3 @@ footer a:hover {
     opacity:0;
 
     }
-
