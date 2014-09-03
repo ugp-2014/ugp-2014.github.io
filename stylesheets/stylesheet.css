@@ -57,7 +57,6 @@ body {
   font-family: "ＭＳ ゴシック",sans-serif;
   font-weight: 500;
   color: #666;
-  z-index: 1;
   height : 1500px;     
 }
 
@@ -341,20 +340,16 @@ dl dd {
   font-weight: 100;
 }
 
-footer {     
-  line-height: 1.5;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  font-size: 25px;    
+footer {        
+  margin: 0 auto;
+  color: #000000;
+  padding-bottom: 150px;
   font-family: "ＭＳ ゴシック",sans-serif;
-  font-weight: 500;
-  color: #000000;  
-  margin: 70px auto;
-  background-color: rgba(100,100,100,0.6); 
+  background:url(../images/LabLogo.png) 50px 0 no-repeat;
 }
 
 footer a {
-  color: #666;
+  color: #666;             
 }
 footer a:hover {
   color: #444;
@@ -388,7 +383,8 @@ footer a:hover {
 	display: block;
 	width: 100px;
 	height:100px;
-	margin-left:920px; 
+	margin-left:920px;
+	z-index:1000; 
     background: url(../images/Ugepi.png) 0 0 no-repeat;
 }
 .pageTop a:before,
@@ -406,7 +402,6 @@ footer a:hover {
 }
 .pageTop a:after {  
 	top:50%;
-	z-index:-1;
 }
 
 /* #Media Queries
@@ -525,7 +520,10 @@ footer a:hover {
 #fade {
     display: none;
 }
-
+#fade_footer {
+    display: none;
+}
+  
 .Collage{
 
     /* define how much padding you want in between your images */

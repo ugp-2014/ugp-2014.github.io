@@ -37,12 +37,12 @@
              $("#s00 img").rotate(angle);
     },10);//
 
-	var i = 0;
-	var int = 0;
 	$(window).bind("load", function() {
 	    $("#fade").fadeIn(1000); // フェードインの実行
 	});
-	
+	$(window).bind("load", function() {
+	    $("#fade_footer").fadeIn(1000); // フェードインの実行
+	});
 	$(window).load(function() {
 		$('.flexslider').flexslider();
 	});
