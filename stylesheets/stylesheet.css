@@ -2,6 +2,8 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,12 +52,13 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5; 
-  background: url(../images/BackGraphic.png) -300px 0 no-repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  background: url(../images/BackGraphic.png) -200px 0 no-repeat;
+  background-size: 1800px 1500px;
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-weight: 500;
   color: #666;
-  z-index: 1;     
-  height: 1000px;
+  z-index: 1;
+  height : 1500px;     
 }
 
 a {
@@ -68,7 +71,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   background:url(../images/Logo.png) 0 -30px no-repeat;
   border-bottom: solid 1px;
   background-size: 1380px;
@@ -99,7 +102,7 @@ header h2 {
 }
 
 #content-wrapper {
-  height : 700px;  
+  height : 1000px;   
   width : 1200px;  
   margin: 50px auto;
   color: #000000;
@@ -140,7 +143,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
 }
 
 a.button small {
@@ -229,7 +232,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: 3.8em;
   letter-spacing: -1px;
   color: #474747;
@@ -242,7 +245,7 @@ form {
 }
 
 #main-content h2 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -255,7 +258,7 @@ form {
 }
 
 #main-content h3 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: 28px;
   font-weight: bold;
   margin-top: 24px;
@@ -270,7 +273,7 @@ form {
 }
 
 #main-content h4 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #474747;
@@ -283,7 +286,7 @@ h4:before {
 }
 
 #main-content h5 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: 24px;
   color: #474747;
 } 
@@ -293,8 +296,8 @@ h5:before {
   margin-left: -3.2em;
 }
 
-#main-content h6 {
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+#main-content h6 {  
+  font-family: "ＭＳ ゴシック",sans-serif;
   font-size: .18em;
   color: #474747;
 } 
@@ -338,13 +341,15 @@ dl dd {
   font-weight: 100;
 }
 
-footer {
-  background: transparent url('../images/hr.png') 0 0 no-repeat;
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  font-size: 13px;
-  color: #aaa;
+footer {     
+  line-height: 1.5; 
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 25px;    
+  font-family: "ＭＳ ゴシック",sans-serif;
+  font-weight: 500;
+  color: #000000; 
+  background-color: rgba(100,100,100,0.6); 
 }
 
 footer a {
@@ -500,3 +505,4 @@ footer a:hover {
     opacity:0;
 
     }
+

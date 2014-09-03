@@ -1,4 +1,5 @@
 ﻿(function($) {
+	
     //回し続けてみる
     var angle = 0;
     setInterval(function(){
