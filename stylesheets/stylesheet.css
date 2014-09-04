@@ -247,7 +247,7 @@ form {
 
 #main-content h2 {
   font-family: "ＭＳ ゴシック",sans-serif;
-  font-size: 32px;
+  font-size: 42px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
@@ -260,7 +260,7 @@ form {
 
 #main-content h3 {
   font-family: "ＭＳ ゴシック",sans-serif;
-  font-size: 28px;
+  font-size: 38px;
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
@@ -404,6 +404,26 @@ footer a:hover {
 }
 .pageTop a:after {  
 	top:50%;
+}
+
+.Link {
+	font-family: "ＭＳ ゴシック",sans-serif;  
+	width: 1000px;
+	float: left;
+	position:relative;
+  	margin: 0 auto;
+  	padding-left: 0px; 
+	color: #00BFFF;
+}
+.Link a:link {
+}
+.Link a:visited { 
+}
+.Link a:hover {
+	color: #ffff00; 
+}
+.Link a:active { 
+	color: #ff8000; 
 }
 
 /* #Media Queries
