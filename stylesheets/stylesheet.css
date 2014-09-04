@@ -80,6 +80,7 @@ header {
   -o-background-size: cover;
   background-size: cover;
   border-bottom: solid 1px;
+  width:100%;
 }
 
 header h1 {
@@ -117,7 +118,7 @@ header h2 {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
+  background-size: cover;
 }
 
 #main-content {   
