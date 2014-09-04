@@ -57,7 +57,8 @@ body {
   font-family: "ＭＳ ゴシック",sans-serif;
   font-weight: 500;
   color: #666;
-  height : 1500px;     
+  height : 1500px;
+  width: 100%;     
 }
 
 a {
@@ -74,6 +75,7 @@ header {
   background:url(../images/Logo.png) 0 -30px no-repeat;
   border-bottom: solid 1px;
   background-size: 1380px;
+  width: 100%;     
 }
 
 header h1 {

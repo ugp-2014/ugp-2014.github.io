@@ -181,8 +181,8 @@
   opacity: 1;
 }
 #cssmenu ul ul li a {
-  width: 150px;
-  padding: 12px 25px;
+  width: 180px;
+  padding: 10px 25px;
   font-size: 13px;
   font-weight: 700;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
@@ -220,8 +220,8 @@
   box-shadow: inset 0 -3px 0 #27a9de, inset 0 -3px 3px #1f9acc, 0 1px 1px rgba(0, 0, 0, 0.03), 0 2px 2px rgba(0, 0, 0, 0.05), 0 2px 3px rgba(0, 0, 0, 0.13);
 }
 #cssmenu ul ul > li.has-sub > a:after {
-  right: 12px;
-  top: 20.5px;
+  right: 15px;
+  top: 12px;
   background: #3db2e1;
   background: -webkit-linear-gradient(top, #58bde5 0%, #4ab7e3 25%, #2babde 50%, #58bde5 75%, #4ab7e3 100%);
   background: -ms-linear-gradient(top, #58bde5 0%, #4ab7e3 25%, #2babde 50%, #58bde5 75%, #4ab7e3 100%);
