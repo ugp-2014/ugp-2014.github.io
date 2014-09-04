@@ -57,7 +57,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; 
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-weight: 500;
   color: #666;
   width: 100%;     
@@ -73,7 +73,7 @@ a:hover {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   background:url(../images/Logo.png) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -108,13 +108,13 @@ header h2 {
 }
 
 #content-wrapper {
+  position: relative;
   height : 1000px;   
   width : 1200px;  
   margin: 50px auto;
   color: #000000;
   background-color: rgba(255,255,255,0.6);   
   background-repeat: no-repeat;
-  background-position : center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -154,7 +154,7 @@ a.button {
   color: #fff;
   padding-left: 68px;
   padding-top: 22px;
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
 }
 
 a.button small {
@@ -243,7 +243,7 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 #main-content h1 {
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: 3.8em;
   letter-spacing: -1px;
   color: #474747;
@@ -256,7 +256,7 @@ form {
 }
 
 #main-content h2 {
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: 42px;
   font-weight: bold;
   margin-bottom: 8px;
@@ -269,7 +269,7 @@ form {
 }
 
 #main-content h3 {
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: 38px;
   font-weight: bold;
   margin-top: 24px;
@@ -284,7 +284,7 @@ form {
 }
 
 #main-content h4 {
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: 25px;
   font-weight: bold;
   color: #474747;
@@ -297,7 +297,7 @@ h4:before {
 }
 
 #main-content h5 {
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: 24px;
   color: #474747;
 } 
@@ -308,7 +308,7 @@ h5:before {
 }
 
 #main-content h6 {  
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-size: .18em;
   color: #474747;
 } 
@@ -356,7 +356,7 @@ footer {
   margin: 0 auto;
   color: #000000;
   padding-bottom: 150px;
-  font-family: "ＭＳ ゴシック",sans-serif;
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   background:url(../images/LabLogo.png) 50px 0 no-repeat;
 }
 
@@ -417,13 +417,14 @@ footer a:hover {
 }
 
 .Link {
-	font-family: "ＭＳ ゴシック",sans-serif;  
+	font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;  
 	width: 1000px;
 	float: left;
 	position:relative;
   	margin: 0 auto;
   	padding-left: 0px; 
 	color: #00BFFF;
+	
 }
 .Link a:link {
 }
