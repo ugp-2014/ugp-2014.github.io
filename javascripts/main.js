@@ -1,4 +1,16 @@
 ﻿(function($) {
+
+	//<![CDATA[
+	(function(d) {
+	  var sc=d.createElement("script"),
+	      ins=d.getElementsByTagName("script")[0];
+	  sc.type="text/javascript";
+	  sc.src=("https:"==d.location.protocol?"https://":"http://") + "code.analysis.shinobi.jp" + "/ninja_ar/NewScript?id=00318536&hash=4759d8c8&zone=36";
+	  sc.async=true;
+	  ins.parentNode.insertBefore(sc, ins);
+	})(document);
+	//]]>
+
     $(window).bind("scroll", function() {
 	// ドキュメントの高さ
 	scrollHeight = $(document).height();
