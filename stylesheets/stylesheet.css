@@ -51,13 +51,15 @@ table {
 /* LAYOUT STYLES */
 body {
   font-size: 15px;
-  line-height: 1.5; 
-  background: url(../images/BackGraphic.png) -200px 0 no-repeat;
-  background-size: 1800px 1500px;
+  line-height: 1.5;
+  background: url(../images/BackGraphic.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
   font-family: "ＭＳ ゴシック",sans-serif;
   font-weight: 500;
   color: #666;
-  height : 1500px;
   width: 100%;     
 }
 
@@ -72,10 +74,12 @@ header {
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: "ＭＳ ゴシック",sans-serif;
-  background:url(../images/Logo.png) 0 -30px no-repeat;
+  background:url(../images/Logo.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   border-bottom: solid 1px;
-  background-size: 1380px;
-  width: 100%;     
 }
 
 header h1 {
@@ -108,7 +112,11 @@ header h2 {
   margin: 50px auto;
   color: #000000;
   background-color: rgba(255,255,255,0.6);   
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
 
 #main-content {   
