@@ -379,7 +379,7 @@ footer a:hover {
   text-align: center; /* 3.中央寄せ */
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;   
   font-size: 20px;  /* 5.文字サイズ */
-  color: darkblue; /* 6.文字色 */
+  color: #343434;
   position: relative;
   top: 0px;
   padding: 0px 0px 20px 0px;
