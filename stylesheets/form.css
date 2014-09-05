@@ -19,6 +19,8 @@ form p {
 	border-bottom: 2px solid #FFF;
 	font-size: 12px;
 	background: #FFC;
+	background-size:contain;
+	width:600px;
 	/*background-gradient*/
 	background: -moz-linear-gradient(top, #FFC, #F9F9C9);
 	background: -webkit-linear-gradient(top, #FFC, #F9F9C9);
