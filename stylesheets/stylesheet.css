@@ -108,8 +108,7 @@ header h2 {
 }
 
 #content-wrapper {
-  position: relative;
-  height : 1000px;   
+  position: relative;  
   width : 1200px;  
   margin: 50px auto;
   color: #000000;
@@ -365,6 +364,33 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+.MemberBox {
+  float: left;
+  width: 1000px;
+}
+.MemberBox li{
+  float: left; 
+  margin: 10px; /* 周囲の余白 */
+  width: 180px;
+  height: 150px;
+  list-style-type: none; /* リスト項目のマーカー無し */
+  text-align: center; /* 3.中央寄せ */
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;   
+  font-size: 20px;  /* 5.文字サイズ */
+  color: darkblue; /* 6.文字色 */
+  position: relative;
+  top: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.MemberBox li img{
+  background-color: #eeeeff;  /* 2.背景色 */
+  border: 1px dashed #ffff00; /* 1.枠線 */
+  display: table-cell; /* 縦方向に対する高さを揃える */
+  width: 170px;
+  height: 150px;
+  vertical-align: middle; /* 縦方向の揃える */ 
 }
 
 /* MISC */
