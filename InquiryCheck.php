@@ -1,4 +1,15 @@
-﻿<!DOCTYPE html>
+﻿<?php
+	header('Content-Type:text/plain;charset=UTF-8');
+	var_dump($_POST);
+
+	$name = htmlspecialchars( $_POST["name"], ENT_QUOTES "UTF-8");
+	$mailaddress = htmlspecialchars( $_POST["mailaddress"], ENT_QUOTES "UTF-8"); 
+	$title = htmlspecialchars( $_POST["title"], ENT_QUOTES "UTF-8" );
+	$message = htmlspecialchars( $_POST["message"], ENT_QUOTES "UTF-8" );
+
+?>
+
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -78,15 +89,17 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-        <h1>お問い合わせ</h1><br> 
-		<form method="post" accept-charset="UTF-8" action="InquiryCheck.php" target="_blank">
-		<p><span><sup>＊</sup>お名前</span><input type="text" name="name" size="30" placeholder="ハンドルネームでも大丈夫です"required></p> 
-		<p><span><sup>＊</sup>メールアドレス</span><input type="email" name="mailaddress" size="50" pattern=".+@.+\..+" placeholder="aaa@bbbbb.ne.jp"required></p>		
-		<p><span><sup>＊</sup>タイトル</span><input type="text" name="title" size="30" placeholder="題材" required></p> 
-		<p>メッセージ<br>
-		<textarea name="message" cols="50" rows="5"></textarea></p>
-		<p><input type="submit" value="確認する"></p>
-		</form>
+        <h1>確認画面</h1><br>  
+		<form method ="post"  accept-charset="UTF-8" action ="InquirySend.php">
+		<p>お名前 : <?php echo $name;?></p>
+		<p>メールアドレス : <?php echo $mailaddress;?></p>
+		<p>タイトル : <?php echo $title;?></p> 
+		<p>メッセージ
+		<?php echo $message;?></p>
+        <br>
+		<p><input type="button" onClick="history.back()" value="戻る">　　
+		<input type="submit" value="送信する"></p>
+        </form>
 		<br><br><br><br>
 		</section></dir>
             

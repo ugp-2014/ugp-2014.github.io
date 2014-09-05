@@ -1,4 +1,17 @@
-﻿<!DOCTYPE html>
+﻿<?php
+
+	mb_language("Japanese");
+	mb_internal_encoding("UTF-8");
+
+	$message = "名前：" . $_POST["name"] . "\nメッセージ：" . $_POST["message"];
+
+	if (!mb_send_mail("ugp2014@inter7.jp", $_POST["タイトル"], $message, "From: " . $_POST["mailaddress"])) 
+	{
+		exit("メールの送信に失敗しました。");
+	}
+
+?>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset='utf-8'>
@@ -78,15 +91,7 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-        <h1>お問い合わせ</h1><br> 
-		<form method="post" accept-charset="UTF-8" action="InquiryCheck.php" target="_blank">
-		<p><span><sup>＊</sup>お名前</span><input type="text" name="name" size="30" placeholder="ハンドルネームでも大丈夫です"required></p> 
-		<p><span><sup>＊</sup>メールアドレス</span><input type="email" name="mailaddress" size="50" pattern=".+@.+\..+" placeholder="aaa@bbbbb.ne.jp"required></p>		
-		<p><span><sup>＊</sup>タイトル</span><input type="text" name="title" size="30" placeholder="題材" required></p> 
-		<p>メッセージ<br>
-		<textarea name="message" cols="50" rows="5"></textarea></p>
-		<p><input type="submit" value="確認する"></p>
-		</form>
+        <h1>メールが送信されました。</h1>  
 		<br><br><br><br>
 		</section></dir>
             
