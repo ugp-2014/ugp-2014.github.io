@@ -3,12 +3,14 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=EUC-JP">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
     <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/form.css">
     
     <title>UGP</title>
   </head>
@@ -77,9 +79,10 @@
       <div class="inner clearfix">
         <section id="main-content">
         <h1>お問い合わせ</h1> 
-		<form method="post" action="mailto:ugp2014@inter7.jp">
-		<p>お名前  <input type="text" name="name" size="30"></p> 
-		<p>希望職  <input type="text" name="name" size="30"></p>
+		<form method="post" accept-charset="UTF-8" action="mailto:ugp2014@inter7.jp" target="_blank">
+		<p><span><sup>＊</sup>お名前</span><input type="text" name="name" size="30" placeholder="ハンドルネームでも大丈夫です"required></p> 
+		<p><span><sup>＊</sup>メールアドレス</span><input type="text" name="mailaddress" size="50" placeholder="aaa@bbbbb.ne.jp"required></p>		
+		<p><span><sup>＊</sup>タイトル</span><input type="text" name="title" size="30" placeholder="題材" required></p> 
 		<p>メッセージ<br>
 		<textarea name="message" cols="50" rows="5"></textarea></p>
 		<p><input type="submit" value="送信する"></p>
