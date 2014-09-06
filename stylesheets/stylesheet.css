@@ -251,7 +251,12 @@ pickup#info ul{
   background: rgba(255,150,30,0.5);
   padding-left: 30px; 
 }
+pickup#info a{
+  
+} 
+pickup#info img{  
 
+}
 aside#sidebar {
   width: 300px;
   padding-left: 100px;
