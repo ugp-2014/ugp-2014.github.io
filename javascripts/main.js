@@ -1,4 +1,15 @@
 ﻿(function($) {
+    function adjustStyle(width) {
+	    width = parseInt(width);
+	    if (width < 700) {
+	        $("#size-stylesheet").attr("href", "stylesheets/stylesheet.css"); 
+	        $("#size-stylesheet").attr("href", "stylesheets/styles.css");
+	    }
+	}
+    adjustStyle($(this).width());
+    $(window).resize(function() {
+        adjustStyle($(this).width());
+    });
 
     $(window).bind("scroll", function() {
 	// ドキュメントの高さ

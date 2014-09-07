@@ -70,17 +70,20 @@ a:hover {
   color: #2268b2;
 }
 
-header {
+header {                   
+  position: relative;  
   padding-top: 40px;
   padding-bottom: 40px;
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
-  background:url(../images/Logo.png) no-repeat center center;
+  background:url(../images/Logo.png) no-repeat center center ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  border-bottom: solid 1px;
+  border-bottom: solid 1px; 
   width:100%;
+  height : auto;
+  margin: 0 auto; 
 }
 
 header h1 {
@@ -145,8 +148,10 @@ header h2 {
   max-width: 100%; 
 }
 
-.update{         
-  width: 350px;
+.update{        
+  width:100%;
+  max-width:350px;               
+  position: relative;  
   padding-left: 30px;
   min-height: 200px;
   float: right;
@@ -188,7 +193,7 @@ header h2 {
     color: #fff;
     text-decoration: none;
     background: #5599FF;
-    width: 250px;
+    width: 90%;
     padding: 10px 0px;
     position: relative;
     overflow: hidden;
@@ -229,7 +234,8 @@ header h2 {
 }
 
 .pickup{         
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   padding-left: 30px;
   min-height: 200px;
   float: right;
@@ -268,11 +274,12 @@ header h2 {
   padding-left: 30px; 
 }
 
-.new_work{         
-  width: 1100px;
+.new_work{   
+  float: left;       
+  width: 110%;
+  max-width:1400px;
   padding-left: 0px;
   min-height: 100px;
-  float: right;
   margin:  0px -50px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
@@ -301,11 +308,16 @@ header h2 {
 
 }    
 .new_work li{ 
-  margin:  20px 10px auto; 
-}
+  position: relative;
+  float: left; 
+  vertical-align: middle; /* 縦方向の揃える */ 
+  padding: 20px 20px 20px 25px;
+}   
 
 aside#sidebar {
-  width: 300px;
+  width: 100%;
+  height: auto;
+  max-width:300px;
   padding-left: 100px;
   float: right;
   margin: 50px -50px auto;
