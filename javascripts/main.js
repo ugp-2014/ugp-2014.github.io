@@ -1,4 +1,5 @@
 ﻿(function($) {
+	
     function adjustStyle(width) {
 	    width = parseInt(width);
 	    if (width < 700) {
