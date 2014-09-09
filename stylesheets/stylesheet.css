@@ -147,6 +147,14 @@ header h2 {
 #main-content img {
   max-width: 100%; 
 }
+
+#main-content li {      
+  float: left;    
+  position: relative;
+  float: left; 
+  vertical-align: middle; /* 縦方向の揃える */ 
+}
+
 .date{
   white-space: nowrap;
   display: inline-block;
