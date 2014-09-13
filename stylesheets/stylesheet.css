@@ -177,7 +177,7 @@ header h2 {
   padding-left: 30px;
   min-height: 200px;
   float: right;
-  margin: -600px 700px auto; 
+  margin: -600px 750px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
 .update h1{
@@ -302,7 +302,7 @@ header h2 {
   padding-left: 30px;
   min-height: 200px;
   float: right;
-  margin: -600px 280px auto; 
+  margin: -600px 330px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
 .pickup h1{
@@ -339,11 +339,11 @@ header h2 {
 
 .new_work{   
   float: left;       
-  width: 110%;
-  max-width:1400px;
+  width: 100%;
+  max-width:1200px;
   padding-left: 0px;
   min-height: 100px;
-  margin:  0px -50px auto; 
+  margin:  0px 0px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
 }
@@ -383,7 +383,7 @@ aside#sidebar {
   max-width:300px;
   padding-left: 100px;
   float: right;
-  margin: 50px -50px auto;
+  margin: 50px 0px auto;
   
 }
 
