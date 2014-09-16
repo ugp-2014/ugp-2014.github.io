@@ -170,17 +170,17 @@ header h2 {
 .date day:after {
   content: "日";     
 }
-bodybox#update{        
-  width:100%;
-  max-width:350px;               
-  position: relative;  
-  padding-left: 30px;
+.update{  
+  width: 32%;
+  padding-left: 20px;
   min-height: 200px;
+  float: right;                
+  position: relative; 
   float: right;
   margin: -600px 750px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
-bodybox#update h1{
+.update h1{
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -203,11 +203,11 @@ bodybox#update h1{
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 
 }
-bodybox#update h2{
+.update h2{
   padding-left: 10px;
   font-size: 20px; 
 }
-bodybox#update ul{
+.update ul{
   background: rgba(255,150,30,0.5);
   padding-left: 30px; 
 }
