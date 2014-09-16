@@ -650,6 +650,20 @@ footer a:hover {
   color: #444;
 }
 
+.Logo{ 
+  width: 100%;
+  max-width: 400px;
+  padding-left: 0px;
+  min-height: 200px;
+  float: right;
+  margin: -700px 100px auto; 
+} 
+ 
+.Logo li img{      
+  width: 300px;
+  height: 200px;
+}
+
 .MemberBox {
   float: left;
   width: 1000px;
