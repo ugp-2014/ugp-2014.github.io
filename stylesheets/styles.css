@@ -4,8 +4,8 @@
 #cssmenu ul,
 #cssmenu ul li,
 #cssmenu ul li a,
-#cssmenu #menu-button {
-  margin: 0 auto;
+#cssmenu #menu-button {  
+  margin: 0;
   padding: 0;
   border: 0;
   list-style: none;
@@ -30,7 +30,7 @@
   display: none;
 }
 #cssmenu { 
-  width: 100%;
+  width: auto;
   border-radius: 5px;
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: #3db2e1;
