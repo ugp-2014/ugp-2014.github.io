@@ -428,12 +428,13 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 
 }    
-.new_work li{ 
-  position: relative;
-  float: left; 
-  vertical-align: middle; /* 縦方向の揃える */ 
-  padding: 20px 20px 20px 25px;
+.new_work ul{ 
+  padding-left: 20px;
+}    
+.new_work iframe{ 
+  padding-left: 15px;
 }   
+
 
 
 .show{   
