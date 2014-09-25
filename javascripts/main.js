@@ -1,16 +1,4 @@
-﻿$(window).load(function () {
-
-  $("#divId").endlessScroll({ 
-      width: '90px', 
-      height: '10px', 
-      steps: -2, 
-      speed: 40, 
-      mousestop: true 
-  });
-
-  // Recopy the previous line to add scrolling to other divs.
-
-});
+﻿
 (function($) {
 	$(function() {
 	  fr = new FilmRoll({
