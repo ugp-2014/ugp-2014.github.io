@@ -49,10 +49,27 @@
   </head>
 
   <body>   
+	<script src="javascripts/jquery.film_roll.js"></script>
 	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
    	<script src="javascripts/main.js"></script>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <header>
+	<script src="javascripts/endless_scroll_min.js" type="text/javascript"></script>
+ 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+	<script src="javascripts/endless_scroll_min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	$(window).load(function () {
+
+	  $("#divId").endlessScroll({ 
+	      width: '90px', 
+	      height: '10px', 
+	      steps: -2, 
+	      speed: 40, 
+	      mousestop: true 
+	  });
+
+	});
+	</script>
+	<header>
       <div class="inner">
         <br><br><br><br>
       </div>
@@ -106,16 +123,25 @@
 	   <li><a href='Inquiry.html'><span>お問い合わせ</span></a></li>
 	</ul>
 	</div>
-          
     <div id="fade">
     <div id="home">
       <div class="inner clearfix"> 
+		<br>
+		<div class="new_work">
+		<h1>新作</h1>
+		<ul><br>
+		<iframe width="330" height="240" src="http://www.youtube.com/embed/EOboLubqfuk?rel=0" frameborder="0" allowfullscreen></iframe></li>   	           
+		<iframe width="330" height="240" src="http://www.youtube.com/embed/wni7IFWQsEw?list=UUBep9_9pq9qw5fDzG0g6wsA" frameborder="0" allowfullscreen></iframe></li>
+		<iframe width="330" height="240" src="http://www.youtube.com/embed/bDrU8OfO7_w" frameborder="0" allowfullscreen></iframe>
+		</ul>
+		</div>
 		<aside id ="sidebar">
 		<a class="twitter-timeline" href="https://twitter.com/ugp_channel" data-widget-id="507904880313257985">@ugp_channel からのツイート</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> 
 		</aside>
         <br><br>
-
+         
+	    
 	    <div class="update">
 		<h1>更新情報</h1>
 		<ul><br>                  
@@ -163,13 +189,6 @@
 		</ul>
 		</div>
 
-	    <div class="new_work">
-		<h1>新作</h1>
-		<ul><br>
-		<iframe width="480" height="320" src="http://www.youtube.com/embed/EOboLubqfuk?rel=0" frameborder="0" allowfullscreen></iframe></li>   	           
-		<iframe width="480" height="320" src="http://www.youtube.com/embed/wni7IFWQsEw?list=UUBep9_9pq9qw5fDzG0g6wsA" frameborder="0" allowfullscreen></iframe></li>
-		</ul>
-		</div>
 
 	    <div class="show">
 		<h1>関連番組</h1>
