@@ -724,6 +724,20 @@ footer a:hover {
 }
 
 
+.burner{ 
+  width: 100%;
+  padding-left: 0px;
+  float: right; 
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
+} 
+
+.burner h2{ 
+  width: 100%;
+  padding-left: 0px;
+  float: right;
+  font-size:24px;
+} 
+
 .Work {
   width: 1100px;
 }
