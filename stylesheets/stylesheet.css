@@ -153,7 +153,7 @@ header h2 {
   white-space: nowrap;
   display: inline-block;
   _display: inline;
-  font-size: 25px;
+  font-size: 20px;
 }
 .date year:after {
   content: "年";      
@@ -169,8 +169,8 @@ header h2 {
   max-width:350px;               
   position: relative;  
   padding-left: 30px;
-  min-height: 200px;
-  float: right;
+  min-height: 300px;
+  float: right;            
   margin: -600px 750px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
@@ -358,7 +358,7 @@ header h2 {
   width: 100%;
   max-width: 400px;
   padding-left: 30px;
-  min-height: 200px;
+  min-height: 300px;
   float: right;
   margin: -600px 330px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
@@ -400,7 +400,6 @@ header h2 {
   width: 100%;
   max-width:1200px;
   padding-left: 0px;
-  min-height: 100px;
   margin:  0px 0px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
