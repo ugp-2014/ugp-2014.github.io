@@ -880,32 +880,37 @@ footer a:hover {
   margin: 0px 0px auto; 
 }
 .Profile name:after {
-  content: "サンプルボイス";
-  padding-left: 100px;
 }     
 .Profile ul{    
   float: left; 
-  margin: -150px 200px;
-}  
+  margin: 10px 0px;
+}   
 .Profile iframe{  
   width: 150px;
   height: 150px;
 } 
 
-.Profile CareerStr{    
-  float: left;
-  font-size: 30px; 
-  margin: 30px 0px auto; 
-  height: 10px;
-} 
-.Profile img{
+.Profile li{
+  float: left; 
+  margin: 10px; /* 周囲の余白 */
+  width: 170px;
+  height: 150px;
+  list-style-type: none; /* リスト項目のマーカー無し */
+  text-align: center; /* 3.中央寄せ */ 
+  font-size: 20px;  /* 5.文字サイズ */
+  color: #343434;
+  position: relative;
+  padding: 0px 0px -100px 0px;
+}     
+   
+.Profile li img{
   background-color: #eeeeff;  /* 2.背景色 */
   border: 1px dashed #ffff00; /* 1.枠線 */
   display: table-cell; /* 縦方向に対する高さを揃える */
   width: 170px;
   height: 150px;
   vertical-align: middle; /* 縦方向の揃える */ 
-} 
+}   
 
 /* MISC */
 .clearfix:after {
