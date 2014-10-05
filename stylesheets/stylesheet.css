@@ -961,24 +961,64 @@ footer a:hover {
 	top:50%;
 }
 
+
 .Link {
-	font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;  
-	width: 1000px;
-	float: left;
-	position:relative;
-  	margin: 0 auto;
-  	padding-left: 0px; 
-	color: #00BFFF;	
+  float: left;
+  width: 1150px;  
+}         
+.Link ul{   
+  margin: -50px -50px; /* 周囲の余白 */
+
 }
-.Link a:visited { 
+.Link li{
+  float: left;
+  margin: 10px; /* 周囲の余白 */
+  width: 350px;
+  height: 100px;
+  list-style-type: none; /* リスト項目のマーカー無し */
+  text-align: center; /* 3.中央寄せ */
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;   
+  font-size: 24px;  /* 5.文字サイズ */
+  color: #343434;
+  position: relative;    
+  padding-top: 70px;
 }
-.Link a:hover {
-	color: #ffff00; 
-}
-.Link a:active { 
-	color: #ff8000; 
+.Link li img{
+  background-color: #eeeeff;  /* 2.背景色 */
+  border: 1px dashed #ffff00; /* 1.枠線 */
+  display: table-cell; /* 縦方向に対する高さを揃える */
+  width: 350px;
+  height: 100px;
+  vertical-align: middle; /* 縦方向の揃える */ 
 }
 
+.MinLink {
+  float: left;
+  width: 1150px;  
+}         
+.MinLink ul{   
+  margin: 0px -50px; /* 周囲の余白 */
+}
+.MinLink li{
+  margin: 10px; /* 周囲の余白 */
+  width: 100px;
+  height: 50px;
+  list-style-type: none; /* リスト項目のマーカー無し */
+  text-align: center; /* 3.中央寄せ */
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;   
+  font-size: 24px;  /* 5.文字サイズ */
+  color: #343434;
+  position: relative;     
+  padding-top: 70px;
+}
+.MinLink li img{
+  background-color: #eeeeff;  /* 2.背景色 */
+  border: 1px dashed #ffff00; /* 1.枠線 */
+  display: table-cell; /* 縦方向に対する高さを揃える */
+  width: 100px;
+  height: 50px;
+  vertical-align: middle; /* 縦方向の揃える */ 
+}
 /* #Media Queries
 ================================================== */
 
