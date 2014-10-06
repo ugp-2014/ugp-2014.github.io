@@ -912,6 +912,40 @@ footer a:hover {
   vertical-align: middle; /* 縦方向の揃える */ 
 }   
 
+.ProfileSinger {
+  float: left;
+  width: 1200px;    
+  font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif; 
+}
+.ProfileSinger name{
+  font-size: 30px;
+  margin: 0px 0px auto; 
+}
+.ProfileSinger ul{    
+  float: left; 
+  margin: 10px 0px;
+}   
+.ProfileSinger li{
+  float: left; 
+  margin: 10px; /* 周囲の余白 */
+  width: 170px;
+  height: 150px;
+  list-style-type: none; /* リスト項目のマーカー無し */
+  text-align: center; /* 3.中央寄せ */ 
+  font-size: 20px;  /* 5.文字サイズ */
+  color: #343434;
+  position: relative;
+  padding: 0px 0px -100px 0px;
+}     
+   
+.ProfileSinger li img{
+  background-color: #eeeeff;  /* 2.背景色 */
+  border: 1px dashed #ffff00; /* 1.枠線 */
+  display: table-cell; /* 縦方向に対する高さを揃える */
+  width: 170px;
+  height: 150px;
+  vertical-align: middle; /* 縦方向の揃える */ 
+}   
 /* MISC */
 .clearfix:after {
   clear: both;
