@@ -1,5 +1,17 @@
 ﻿
 (function($) {
+	$(function(){
+	$("#service .slide ul").carouFredSel({
+		items : 4,
+		auto    : 4000,
+		prev: '#prev',
+		next: '#next'
+		});
+	});
+	$(function(){
+		$("#service h3").tile();
+		$("#service .text").tile();
+	});
 	$(function() {
 	  fr = new FilmRoll({
 	    container: '#film_roll',
