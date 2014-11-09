@@ -53,11 +53,13 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5;
-  background-image:url(../images/BackGraphic.png);
+  
+  background-image:url(../images/background.jpg);
   background-repeat: no-repeat;
   background-position: center center; 
   background-attachment: fixed; 
-  background-size: auto contain;
+  background-size: 100%;
+ 
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-weight: 500;
   color: #666;
