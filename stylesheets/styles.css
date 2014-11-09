@@ -83,7 +83,8 @@
 
 #cssmenu > ul > li:hover > a,
 #cssmenu > ul > li > a:hover,
-#cssmenu > ul > li.active > a {
+#cssmenu > ul > li.active > a { 
+  z-index: 1000;  
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;

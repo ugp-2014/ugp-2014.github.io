@@ -407,7 +407,7 @@ header h2 {
   padding-left: 30px; 
 }
 
-.new_work{   
+.new_work{    
   float: left;       
   width: 100%;
   max-width:1200px;
@@ -443,6 +443,7 @@ header h2 {
   padding-left: 20px;
 }    
 .new_work iframe{ 
+  z-index: -10;   
   padding-left: 15px;
 }   
 
