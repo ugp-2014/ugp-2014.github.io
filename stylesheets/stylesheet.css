@@ -53,7 +53,7 @@ table {
 body {
   font-size: 15px;
   line-height: 1.5;
-  
+  color:#000000;
   background-color: #E5ECFF;   
   /*
   background-image:url(../images/BackGraphic.png);
@@ -64,7 +64,6 @@ body {
   */
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-weight: 500;
-  color: #666;
   width: 100%;     
 }
 
