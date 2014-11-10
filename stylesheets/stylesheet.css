@@ -1073,10 +1073,22 @@ footer a:hover {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  header {               
+    background-size: 1000 100%;
+    width:1280;
+  }
+  
+}
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+  header {               
+    background-size: 1000 100%;
+    width:1280;
+  }
+
+}
 
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 @charset "UTF-8";
