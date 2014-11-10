@@ -1066,7 +1066,10 @@ footer a:hover {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-
+  header {               
+    background-size: 1000 100%;
+    width:1280;
+  }
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
