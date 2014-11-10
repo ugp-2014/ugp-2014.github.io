@@ -54,12 +54,14 @@ body {
   font-size: 15px;
   line-height: 1.5;
   
-  background-image:url(../images/background.jpg);
+  background-color: #E5ECFF;   
+  /*
+  background-image:url(../images/BackGraphic.png);
   background-repeat: no-repeat;
   background-position: center center; 
   background-attachment: fixed; 
   background-size: 100%;
- 
+  */
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
   font-weight: 500;
   color: #666;
@@ -77,12 +79,13 @@ header {
   padding-top: 50px;
   padding-bottom: 40px;
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
-  background-image:url("../images/Logo.png");
+  background: #FFFFFF;
+  background-image:url("../images/Header.png");
   background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-size: 90% 100%;
   border-bottom: solid 1px; 
   width:100%;
-  height : 90px;
+  height : 50px;
   margin: 0 auto; 
 }
 
@@ -103,7 +106,9 @@ header h2 {
   width: 540px;
   letter-spacing: 0;
 }
-
+#headerLink{
+  margin: -30px 1150px;
+}
 .inner {
   position: relative;
   width: 1100px;
@@ -130,18 +135,9 @@ header h2 {
   background-size: cover;
 }
     
-#home {
-  position: relative;   
-  margin: 70px auto;
-  width : 1250px;   
-  height : 2200px;
-  color: #000000;
-  background-color: rgba(255,255,255,0.6);   
-  background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+#home-content {
+  width: 100%;  
+  text-align: center;
 }
 
 #main-content {    
@@ -161,6 +157,18 @@ header h2 {
   float: left; 
   vertical-align: middle; /* 縦方向の揃える */ 
 }
+.Container {
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  -moz-flex-direction: row;
+  -o-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
 
 .date{
   white-space: nowrap;
@@ -177,17 +185,14 @@ header h2 {
 .date day:after {
   content: "日";     
 }
-.update{        
-  width:100%;
-  max-width:350px;               
+#update{      
+  width:380px;               
   position: relative;  
   padding-left: 30px;
-  min-height: 300px;
-  float: right;            
-  margin: -600px 750px auto; 
+  height: 400px;     
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
-.update h1{
+#update h1{
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -210,11 +215,11 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 
 }
-.update h2{
+#update h2{
   padding-left: 10px;
   font-size: 20px; 
 }
-.update ul{
+#update ul{
   background: rgba(255,150,30,0.5);
   padding-left: 30px; 
 }
@@ -269,6 +274,7 @@ header h2 {
   margin: -600px 400px auto; 
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
 }
+
 .QuestionAnswer h1{   
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
@@ -290,8 +296,8 @@ header h2 {
 				0 3px 3px rgba(0, 0, 0, 0.17), 
 				2px 1px 2px rgba(0, 0, 0, 0.05),
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
-
 }
+
 .QuestionAnswer h2{  
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
@@ -315,14 +321,17 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 
 }     
+
 .QuestionAnswer h3{
   padding-left: 10px;
   font-size: 20px; 
 }
+
 .QuestionAnswer ul{   
   background: rgba(100,200,230,0.5);
   padding-left: 30px; 
 }
+
 .updatebutton {
     color: #fff;
     text-decoration: none;
@@ -337,6 +346,7 @@ header h2 {
     transition: all 0.3s ease; 
   	border-radius: 20px;
 }
+
 .updatebutton:hover {
     background-size: 50px 50px;
     background-position: right 50%;
@@ -363,20 +373,18 @@ header h2 {
     transition: all 0.3s ease; 
 }
 .updatebutton:hover span {
-    margin-left: -100px;
-	color: #ffffff;
+   margin-left: -100px;
+	 color: #ffffff;
 }
 
-.pickup{         
-  width: 100%;
-  max-width: 400px;
-  padding-left: 30px;
-  min-height: 300px;
-  float: right;
-  margin: -600px 330px auto; 
+#pickup{         
+  width: 410px;
+  height: 400px;
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
+  padding-left: 50px; 
 }
-.pickup h1{
+
+#pickup h1{
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -399,26 +407,23 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.pickup h2{
+#pickup h2{
   padding-left: 10px;
   font-size: 25px; 
 }
 
-.pickup ul{
+#pickup ul{
   background: rgba(255,150,30,0.5);
   padding-left: 30px; 
 }
 
-.new_work{    
-  float: left;       
+#new_work{     
   width: 100%;
-  max-width:1200px;
-  padding-left: 0px;
-  margin:  0px 0px auto; 
+  height:350px;
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
 }
-.new_work h1{
+#new_work h1{
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -441,25 +446,26 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 
 }    
-.new_work ul{ 
+
+#new_work ul{ 
   padding-left: 20px;
 }    
-.new_work iframe{ 
+#new_work iframe{ 
   z-index: -10;   
+  width:300px;
+  height:250px;
   padding-left: 15px;
 }   
 
-.show{   
-  float: left;       
-  width: 100%;
-  max-width:1200px;
-  padding-left: 0px;
-  min-height: 100px;
-  margin:  50px 0px auto; 
+#show{   
+  float: left;  
+  width:300px;
+  height: 400px;
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
+  padding-left: 50px;
 }
-.show h1{
+#show h1{
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -482,24 +488,20 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 }  
   
-.show li{ 
+#show li{ 
   position: relative;
   float: left; 
   vertical-align: middle; /* 縦方向の揃える */ 
   padding: 20px 20px 20px 25px;
 }   
 
-.burner{ 
-  float: left;       
-  width: 100%;
-  max-width:1200px;
-  padding-left: 0px;
-  min-height: 100px;
-  margin:  50px 0px auto; 
+#burner{ 
+  width:100%;
+  height: 300px;
   font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
   background: rgba(255,150,30,0.5);
 }
-.burner h1{ 
+#burner h1{ 
   color: #ffffff;     
   text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.5);
   font-size: 30px;
@@ -522,25 +524,21 @@ header h2 {
 				 -2px 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-.burner h2{ 
+#burner h2{ 
   width: 100%;
   padding-left: 0px;
   float: right;
   font-size:24px;
 } 
 
-aside#sidebar {
-  width: 100%;
+#sidebar {
   height: auto;
-  max-width:300px;
-  padding-left: 100px;
-  float: right;
-  margin: 20px 0px auto;
-  
+  width:400px;
+  padding-left: 50px;
 }
 
-aside#sidebar p.repo-owner,
-aside#sidebar p.repo-owner a {
+#sidebar p.repo-owner,
+#sidebar p.repo-owner a {
   font-weight: bold;
 }
 
@@ -569,15 +567,6 @@ header a.button {
   top: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-aside a.button {
-  width: 138px;
-  padding-left: 64px;
-  display: block;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-  margin-bottom: 20px;
-  font-size: 21px;
-}
-
 code, pre {
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   color: #222;
