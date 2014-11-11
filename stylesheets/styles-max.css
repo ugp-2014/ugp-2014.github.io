@@ -1,0 +1,267 @@
+﻿@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a,
+#cssmenu #menu-button {  
+  z-index: 1000;  
+  margin: 0;
+  padding: 0;
+  border: 0;
+  list-style: none;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  z-index: 1000;  
+}
+#cssmenu:after,
+#cssmenu > ul:after {  
+  z-index: 1000;  
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+#cssmenu #menu-button {
+  display: none;
+}
+#cssmenu {  
+  z-index: 1000;  
+  width: auto;
+  border-radius: 5px;
+  font-family: 'HGP創英角ｺﾞｼｯｸUB', Helvetica, sans-serif;
+  background: #FF6666;
+  border:3px solid #F1396D;
+  border-radius: 6px;  
+ }
+
+#cssmenu.align-center > ul {
+  font-size: 0;
+  text-align: center;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-center > ul > li {
+  display: inline-block;
+  float: none;
+}
+#cssmenu.align-right > ul > li {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li {
+  float: left;
+}
+#cssmenu > ul > li > a {
+  padding: 15px 15px;
+  font-size: 23px;   
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  font-weight: 700;
+  text-decoration: none;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+}
+
+#cssmenu > ul > li:hover > a,
+#cssmenu > ul > li > a:hover,
+#cssmenu > ul > li.active > a { 
+  z-index: 1000;  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 10px;     
+  padding: 8px 15px 9px 15px; 
+  top: 5px;
+  display: block; 
+  border: 1px solid transparent;
+  color:#FFFF45;
+}
+#cssmenu > ul > li.has-sub > a {  
+  padding-right: 40px;   
+
+}
+#cssmenu ul > li.has-sub > a:after {  
+  content: '';
+  position: absolute;
+  right: 8px;
+  top: 18px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  border-radius: 10px;
+  background: #BE80FF;
+  background-size: 36px 36px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -ms-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out; 
+}
+#cssmenu ul > li.has-sub:hover > a:after { 
+  background-position: 0 -18px;
+}
+#cssmenu ul > li.has-sub > a:before {
+  content: '';
+  position: absolute;
+  right: 12px;
+  top: 25.0px;
+  display: block;
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top-color: #ffffff;
+  z-index: 99;
+}
+#cssmenu ul > li.has-sub:hover > a:before {
+  border-top-color: #EDDE45; 
+}
+#cssmenu ul ul {    
+  border:3px solid #F1396D;
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  -webkit-transition: top .2s ease, opacity .2s ease;
+  -moz-transition: top .2s ease, opacity .2s ease;
+  -ms-transition: top .2s ease, opacity .2s ease;
+  -o-transition: top .2s ease, opacity .2s ease;
+  transition: top .2s ease, opacity .2s ease;
+}
+#cssmenu > ul > li > ul {
+  top: 0px;
+  padding-top: 0px;
+  border-radius: 5px;    
+}
+#cssmenu > ul > li:hover > ul {
+  left: auto;
+  top: 45px;
+  opacity: 5;  
+}
+#cssmenu.align-right > ul > li:hover > ul {
+  right: 0;
+
+}
+#cssmenu ul ul ul {
+  top: 40px;
+  z-index: 1;
+}
+#cssmenu ul ul > li:hover > ul {
+  top: 0;
+  left: 178px;
+  margin: 0px -5px;
+  padding-left: 0px;
+  opacity: 1; 
+}
+#cssmenu.align-right ul ul > li:hover > ul {
+  left: auto;
+  right: 178px;
+  padding-left: 0px;
+  padding-right: 0px;
+  opacity: 1;        
+}
+#cssmenu ul ul li a {
+  width: 180px;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 700;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  background: #BE80FF;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease; 
+}
+
+#cssmenu ul ul li:hover > a,
+#cssmenu ul ul li > a:hover,
+#cssmenu ul ul li.active > a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 1px;
+  display: block;
+  color:#FFFF45;
+}
+#cssmenu ul ul li:first-child > a {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#cssmenu ul ul li:last-child > a {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#cssmenu ul ul > li.has-sub > a:after {
+  right: 15px;
+  top: 12px;
+  background: #BE80FF;
+  background-size: 36px 36px;
+  background-position: 0 0;
+  background-repeat: no-repeat;  
+}
+#cssmenu.align-right ul ul > li.has-sub > a:after {
+  right: auto;
+  left: 12px;
+}
+#cssmenu ul ul > li.has-sub:hover > a:after {
+  background-position: 0 -18px;
+}
+#cssmenu ul ul > li.has-sub > a:before {
+  top: 15.5px;
+  right: 16px;
+  border-top-color: transparent;
+  border-left-color: #ffffff;
+}
+#cssmenu.align-right ul ul > li.has-sub > a:before {
+  top: 15.5px;
+  right: auto;
+  left: 16px;
+  border-top-color: transparent;
+  border-right-color: #ffffff;
+  border-left-color: transparent;
+}
+#cssmenu ul ul > li.has-sub:hover > a:before {
+  border-top-color: transparent;
+  border-left-color: #FFFF45;
+}
+#cssmenu.align-right ul ul > li.has-sub:hover > a:before {
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: #FFFF45;
+}
+@media all and (max-width: 768px), only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px), only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px), only screen and (min-resolution: 192dpi) and (max-width: 1024px), only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+ 
+}
+
+/* Base Styles */
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;   
+  font-family: 'Lato', sans-serif;
+}

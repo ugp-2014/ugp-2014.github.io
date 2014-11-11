@@ -63,8 +63,8 @@ body {
   background-size: 100%;
   */
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
-  font-weight: 500;
-  width: 100%;     
+  font-weight: 50;
+  width:1300px;
 }
 
 a {
@@ -81,10 +81,9 @@ header {
   background-repeat:no-repeat;
   background-size: 90% 100%;
   border-bottom: solid 1px; 
-  width:100%;
   height : 150px;
-
 }
+
 header h1 {
   letter-spacing: -1px;
   font-size: 72px;
@@ -101,9 +100,8 @@ header h2 {
 }
 
 #headerLink {
-  position: absolute;  
-  top: 30px;  
-  left: 1150px;  
+  float:right;
+  margin: 30px auto;  
 }
 
 .inner {
