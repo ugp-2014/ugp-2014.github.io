@@ -734,11 +734,11 @@ dl dd {
 }
 
 footer {        
-  margin: 0 auto;
   color: #000000;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
   font-family: "HGP創英角ｺﾞｼｯｸUB",sans-serif;
-  background:url(../images/footer.png) 50px 0 no-repeat;
+  width:1300px;
+  margin-left: -50px;
 }
 
 footer a {
@@ -746,6 +746,45 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+#sitemap{
+  padding-left: 0px;
+  display: flex;
+  display: -moz-flex;
+  display: -o-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  flex-direction: row;
+  -moz-flex-direction: row;
+  -o-flex-direction: row;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+}
+
+#sitemap h1{
+  font-size: 28px;  
+}
+#sitemap h2{
+  font-size: 24px;   
+  padding-left: 10px; 
+}
+
+#sitemap h3{
+  font-size: 18px;  
+  padding-left: 10px; 
+}
+
+#sitemap h2 a:before{
+  content: url("../images/sitemaplink.png");
+}
+
+#sitemap h3 a:before{
+  content: url("../images/sitemaplink2.png");
+
+}
+#horizontal{
+  padding-left: 50px;
 }
 
 .Logo{ 
