@@ -185,7 +185,8 @@ function Menu()
     	document.write("<li class=\'has-sub\'><a href=\'OrganizationInfo.html\'><span>団体情報</span></a>");
     	document.write("<ul>");
     	document.write("<li><a href=\'OrganizationInfo.html\'><span>組織図</span></a></li>");
-    	document.write("<li><a href=\'#\'><span>制作理念</span></a></li>	");
+        document.write("<li><a href=\'#\'><span>制作理念</span></a></li>	");
+        document.write("<li><a href=\'Mentor.html\'><span>メンター制度</span></a></li>	");
     	document.write("<li><a href=\'http://tarte1012.wix.com/koho\' target=\"_brank\"><span>広報課</span></a></li>");
     	document.write("<li class=\'has-sub\'><a href=\'MembersList.html\'><span>メンバー</span></a>");
     	document.write("<ul>");
