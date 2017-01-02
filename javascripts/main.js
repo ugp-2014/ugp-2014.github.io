@@ -174,11 +174,11 @@ function Menu()
 	document.write("<div id=\'cssmenu\'>");
 		document.write("<ul>");
 		document.write("<div id=\'social-icon\'>");
-			document.write("<a href=\"http://twitter.com/share?url=http://ugp.space/&text=Œ|”\Šé‰æ’c‘ÌUGP‚ÌƒIƒtƒBƒVƒƒƒ‹ƒTƒCƒg&hashtags=#UGP\"  onclick=\"window.open(this.href, \'FBwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
+			document.write("<a href=\"http://twitter.com/share?url=http://ugp-2014.github.io/&text=Œ|”\Šé‰æ’c‘ÌUGP‚ÌƒIƒtƒBƒVƒƒƒ‹ƒTƒCƒg&hashtags=#UGP\"  onclick=\"window.open(this.href, \'FBwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
 			document.write("<img src=\"images/icon/twitter.png\" alt=\"Twitterでシェア\"></a>");
-    		document.write("<a href=\"http://www.facebook.com/share.php?u=http://ugp.space\" onclick=\"window.open(this.href, \'FBwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
+    		document.write("<a href=\"http://www.facebook.com/share.php?u=http://ugp-2014.github.io\" onclick=\"window.open(this.href, \'FBwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
     		document.write("<img src=\"images/icon/facebook.png\" alt=\"Facebookでシェア\"></a>");
-    		document.write("<a href=\"https://plus.google.com/share?url=http://ugp.space\" onclick=\"window.open(this.href, \'Gwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
+    		document.write("<a href=\"https://plus.google.com/share?url=http://ugp-2014.github.io\" onclick=\"window.open(this.href, \'Gwindow\', \'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes\'); return false;\">");
     		document.write("<img src=\"images/icon/google+.png\" alt=\"Google+でシェア\"></a>");
     	document.write("</div>");
     	document.write("<li class=\'active\'><a href=\'index.html\'><span>ホーム</span></a></li>");
